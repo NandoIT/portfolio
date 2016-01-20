@@ -1,0 +1,234 @@
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9;
+}
+
+body{
+	background-image: url(../img/ny.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: cover;
+	background-size: 100%;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0;
+	margin-top: 46px;
+}
+
+nav{
+	margin: 0;
+	background-color: #2C3E50;
+	height: 46px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   	float: left;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #4CAF50;
+}
+
+#about{
+	height:99vh;
+}
+
+h1{
+	display: inline-block;
+	padding: 0px 10px;
+	border-bottom: 2px solid white;
+	color: white;
+	font-size: 50px;	
+}
+
+.ik
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.page-title{
+	margin: 20px;
+}
+
+#textAbout
+{
+	font-size: 18px;
+	color: white;
+	width:550px;
+	display: block;
+	margin: auto;
+}
+
+#textExperience
+{
+	font-size: 18px;
+	width:550px;
+	display: block;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+h2{
+	display: inline-block;
+	padding: 0px 10px;
+	border-bottom: 2px solid #2C3E50;
+	color: #2C3E50;
+	font-size: 50px;
+}
+
+h3{
+	display: inline-block;
+	padding: 0px 10px;
+	border-bottom: 2px solid white;
+	color: white;
+	font-size: 50px;
+}
+
+h4{
+	display: inline-block;
+	padding: 0px 10px;
+	border-bottom: 2px solid #2C3E50;
+	color: #2C3E50;
+	font-size: 50px;
+}
+
+section {
+	padding-top: 10px;
+}
+
+table{
+	margin: auto;
+}
+
+th, td {
+   padding: 2px 35px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin:auto;
+	width:80%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+	z-index: 0;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	z-index: 0;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	z-index: 0;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	z-index: 0;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+	z-index: 0;
+}
+
+.projectpic
+{
+	width:350px;
+	height: 280px;
+	display: inline;	
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#portfolio
+{
+	height:99vh;
+	background-color: white;
+}
+
+#experiences{
+	height:99vh;
+	background-color: lightgrey;
+}
+
+#contact
+{
+	height:99vh;
+	background-color: white;
+}
+
+footer {
+	bottom: 0;
+	background-color: #2C3E50;
+	color: white;
+}

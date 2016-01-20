@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="portofolio.css">
-
+<link rel="stylesheet" type="text/css" href="css/portofolio.css">
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
 <title>Portofolio Nando</title>
 </head>
 <body>
@@ -17,14 +18,12 @@
 		</nav>
 	</header>
 	
-	
-
 <section id="about">
 	<img src="img/ik.jpg" class="ik" alt="">
-	<h1 class="page-title">Nando Veenendaal </h1>
-	<div id="textAbout">
-		<p>Ik ben Nando Veenendaal.Ik ben een enthousiaste programmeur met 3 jaar ervaring die zoveel mogelijk probeert te leren.In mijn dagelijks leven houd ik mij vooral bezig met voetbal, computers, muziek en vrienden. Ik heb mijn MAVO diploma behaald op het Segbroek College te Den Haag. Nu zit ik in het 3e jaar van de MBO opleiding applicatieontwikkelaar van het ROC Mondriaan.</p>
-	</div>
+	  <h1 class="page-title">Nando Veenendaal </h1>
+		<div id="textAbout">
+			<p>Ik ben Nando Veenendaal.Ik ben een enthousiaste programmeur met 3 jaar ervaring die zoveel mogelijk probeert te leren.In mijn dagelijks leven houd ik mij vooral bezig met voetbal, computers, muziek en vrienden. Ik heb mijn MAVO diploma behaald op het Segbroek College te Den Haag. Nu zit ik in het 3e jaar van de MBO opleiding applicatieontwikkelaar van het ROC Mondriaan. Ik loop momenteel stage bij het ICT bedrijf Competa.</p>
+		</div>
 	</section>
 
 <section id="portfolio">
@@ -58,58 +57,97 @@
 			<td>Smoelenboek</td>
 			<td>PHP</td>
 		  </tr>
-		</table>	
+		</table>			
+			<img class="projectpic" src="img/vieropeenrij.jpg" alt="">
+			<img class="projectpic"src="img/BKE.jpg" alt="">
+			<img class="projectpic"src="img/Taaltoets.jpg"alt=""> 	
 </section>	
 
 <section id="experiences">
 	<h3 >Experiences </h3>
-	<p>Ik ben Nando Veenendaal. Ik ben 18 jaar oud en woon in Den Haag. Ik zit nu in het 3e jaar van de mbo pleiding applicatieontwikkelaar.</p>
-	
+		<div id="textExperience">
+			<p>De afgelopen 3 jaar hebben ik mij vooral bezig gehouden met de onderstaande programmeer talen. Aan de hand van deze talen heb ik een skill bar gemaakt die weergeeft hoe ver ik ben met de programmeertalen. Al mijn projecten zijn gemaakt met een of meerdere van deze programmeertalen zoals ik bij "Portfolio" heb vermeld. Verder heb ik op het ROC Mondriaan een certificaat van Oracle Database design behaald.</p>
+		</div>
+			<div class="skillbar clearfix " data-percent="90%">
+					<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+					<div class="skillbar-bar" style="background: #e67e22;"></div>
+					<div class="skill-bar-percent">90%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div class="skillbar clearfix " data-percent="70%">
+					<div class="skillbar-title" style="background: #2980b9;"><span>Javascript</span></div>
+					<div class="skillbar-bar" style="background: #3498db;"></div>
+					<div class="skill-bar-percent">70%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div class="skillbar clearfix " data-percent="70%">
+					<div class="skillbar-title" style="background: #2c3e50;"><span>Java</span></div>
+					<div class="skillbar-bar" style="background: #2c3e50;"></div>
+					<div class="skill-bar-percent">70%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div class="skillbar clearfix " data-percent="60%">
+					<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+					<div class="skillbar-bar" style="background: #5a68a5;"></div>
+					<div class="skill-bar-percent">60%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div class="skillbar clearfix " data-percent="75%">
+					<div class="skillbar-title" style="background: #333333;"><span>CSS</span></div>
+					<div class="skillbar-bar" style="background: #525252;"></div>
+					<div class="skill-bar-percent">75%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div class="skillbar clearfix " data-percent="60%">
+					<div class="skillbar-title" style="background: #27ae60;"><span>SQL</span></div>
+					<div class="skillbar-bar" style="background: #2ecc71;"></div>
+					<div class="skill-bar-percent">60%</div>
+				</div> <!-- End Skill Bar -->
 </section>
 
 <section id="contact">
 	<h4>Contact </h4>	
-	<table>
-		  <tr>
-			<th>Full Name</th>
-			<th>Working at</th>
-		  </tr>
-		  <tr>
-			<td>Nando Veenendaal</td>
-			<td>Competa IT</td>
-		 </tr>
-		 <tr>
-			<th>Geboortedatum</th>
-			<th>Email</th>
-		  </tr>
-		  <tr>
-			<td>06-05-1997</td>
-			<td>nandoveenendaal@hotmail.com</td>
-		 </tr>
-		 <tr>
-			<th>Geboorteplaats</th>
-			<th>Github</th>
-		  </tr>
-		  <tr>
-			<td>Den Haag</td>
-			<td>NandoIT</td>
-		 </tr>
-		 <tr>
-			<th>Hobbies</th>
-			<th>Talen</th>
-		  </tr>
-		  <tr>
-			<td>Voetbal, gamen, muziek, vrienden.</td>
-			<td>Nederlands, Engels</td>
-		 </tr>
+		<table>
+			  <tr>
+				<th>Full Name</th>
+				<th>Working at</th>
+			  </tr>
+			  <tr>
+				<td>Nando Veenendaal</td>
+				<td>Competa IT</td>
+			 </tr>
+			 <tr>
+				<th>Geboortedatum</th>
+				<th>Email</th>
+			  </tr>
+			  <tr>
+				<td>06-05-1997</td>
+				<td>nandoveenendaal@hotmail.com</td>
+			 </tr>
+			 <tr>
+				<th>Geboorteplaats</th>
+				<th>Github</th>
+			  </tr>
+			  <tr>
+				<td>Den Haag</td>
+				<td>NandoIT</td>
+			 </tr>
+			 <tr>
+				<th>Hobbies</th>
+				<th>Talen</th>
+			  </tr>
+			  <tr>
+				<td>Voetbal, gamen, muziek, vrienden.</td>
+				<td>Nederlands, Engels</td>
+			 </tr>
 		</table>	
-		<br>
-		<a href="mailto:nandoveenendaal@hotmail.com?Subject=Hello%20again" target="_top">Verstuur mail</a>
-		
-
+	<br>
+	<br>
+    <a href="mailto:nandoveenendaal@hotmail.com?Subject=Hello%20again" target="_top">Verstuur mail</a>
 </section>
 
 
 <footer>Copyright &copy; 2016 - Nando Veenendaal</footer>
+<script src="js/portofolio.js"> </script>
 </body>
 </html>
