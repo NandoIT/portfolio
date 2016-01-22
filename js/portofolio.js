@@ -5,3 +5,10 @@ $(document).ready(function(){
 		},6000);
 	});
 });
+
+(function() {
+	var homeButton = document.querySelectorAll("nav ul li")[0];
+	homeButton.onclick = function(e) {
+		window.scrollTo(0, 0);
+	};
+})();
