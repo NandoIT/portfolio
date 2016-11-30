@@ -1,0 +1,23 @@
+
+(function() {
+	var homeButton = document.querySelectorAll("nav ul.pc li")[0];
+	homeButton.onclick = function(e) {
+		window.scrollTo(0, 0);
+	}; 
+	var btn =  document.querySelector('.hamburger'),
+		menu = document.querySelector('.mob');
+		
+		function showButton() {
+			btn.addEventListener('click', function() {
+				  if(menu) {
+					menu.classList.add('show');
+				}
+			}, false);
+		}
+	
+		if(btn) {
+			showButton();
+			
+		}
+	
+})();
